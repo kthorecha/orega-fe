@@ -1,0 +1,21 @@
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.main>div{
+    height: 400px !important;
+    min-height: 50% !important;
+    border: 1px solid black;
+    margin: 2px;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+}
+
+.top>div{
+    border: 1px solid black;
+    margin: 2px;
+    width: 50%;
+}

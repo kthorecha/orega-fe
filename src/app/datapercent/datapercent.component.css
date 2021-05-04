@@ -1,0 +1,19 @@
+
+.percent-main{
+    display: flex;
+    flex-direction: column;
+}
+.percent-main>div{
+    border: 1px solid black;
+    margin: 2px;
+    height: 50%;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+}
+.percent{
+    font-size: 7em;
+    align-items: center;
+    padding: 5px;
+}
